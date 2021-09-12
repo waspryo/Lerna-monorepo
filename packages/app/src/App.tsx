@@ -10,9 +10,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         Your Count is {count}
-        <button onClick={() => setCount((prev: number) => ++prev)}>
+        <Button onClick={() => setCount((prev: number) => ++prev)}>
           Click
-        </button>
+        </Button>
       </header>
     </div>
   );
